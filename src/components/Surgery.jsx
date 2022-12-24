@@ -107,7 +107,7 @@ function Surgery() {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <section className="flex flex-col max-w-3xl max-h-screen ml-28 mt-2">
+    <section className="flex flex-col max-w-3xl ml-28 mt-2">
       <div>
         <h2 className="text-black font-bold text-xl">
           We are experts in Surgical solutions for 50+ ailments.
