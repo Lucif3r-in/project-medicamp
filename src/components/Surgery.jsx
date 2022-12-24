@@ -107,13 +107,17 @@ function Surgery() {
   const [showModal, setShowModal] = useState(false);
 
   return (
+
     <section className="flex flex-col max-w-3xl ml-28 mt-2">
+
       <div>
         <h2 className="text-black font-bold text-xl">
           We are experts in Surgical solutions for 50+ ailments.
         </h2>
       </div>
+
       <div className="mt-4 px-6 py-3 border-2 border-slate-200 rounded-xl ">
+
         <p className="text-black font-bold text-lg">Popular Surgeries</p>
         <div className="grid grid-cols-5 ">
           {links.map(({ id, src, name }) => (
