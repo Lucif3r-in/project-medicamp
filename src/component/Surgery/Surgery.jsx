@@ -108,7 +108,7 @@ function Surgery() {
 
   return (
 
-    <section className="flex flex-col max-w-3xl ml-20 mt-2">
+    <section className="flex flex-col max-w-3xl ml-14 mt-2">
 
       <div>
         <h2 className="text-black font-bold text-2xl">
