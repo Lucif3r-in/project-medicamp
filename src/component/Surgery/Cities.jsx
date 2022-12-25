@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import SectionContainer from "../Shared/SectionContainer";
 import {
   Dropdown,
   DropdownToggle,
@@ -15,9 +14,8 @@ function Cities({ direction, ...args }) {
   const toggle = () => setDropdownOpen((prevState) => !prevState);
 
   return (
-    <SectionContainer>
-      <div className="mt-[-15px] ml-[-45px] w-full">
-        <div className="d-flex p-5  ">
+    <span >
+        <div className=" d-flex p-5 ml-[-44px] mt-[-15px]">
           <Dropdown isOpen={dropdownOpen} toggle={toggle} direction={direction}>
             <DropdownToggle caret>Select Your City</DropdownToggle>
             <DropdownMenu {...args}>
@@ -31,8 +29,7 @@ function Cities({ direction, ...args }) {
             </DropdownMenu>
           </Dropdown>
         </div>
-      </div>
-    </SectionContainer>
+    </span>
   );
 }
 
