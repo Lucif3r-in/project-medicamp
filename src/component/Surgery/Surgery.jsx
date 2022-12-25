@@ -116,7 +116,7 @@ function Surgery() {
         </h2>
       </div>
 
-      <div className="mt-4 px-6 py-3 border-2 border-slate-200 rounded-xl ">
+      <div className="mt-4 px-6 py-3 rounded-xl shadow-xl  bg-[#cec8ad]">
 
         <p className="text-black font-bold text-lg">Popular Surgeries</p>
         <div className="grid grid-cols-5 ">

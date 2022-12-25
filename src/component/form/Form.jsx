@@ -73,6 +73,7 @@ export default function Form() {
         padding: "4px",
         boxShadow:
           "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
+          backgroundColor:'#cdc8ae'
       }}
       noValidate
       autoComplete="off"
@@ -158,7 +159,7 @@ export default function Form() {
         </TextField>
       </div>
       <div className="flex justify-center mb-[16px] ">
-        <Button variant="contained" sx={{ width: "300px", height: "9vh" }}>
+        <Button variant="contained" sx={{ width: "300px", height: "9vh",backgroundColor:'#553692' }}>
           Book Appointment
         </Button>
       </div>
