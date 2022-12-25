@@ -1,11 +1,15 @@
-
-import Surgery from "./components/Surgery";
+import "./App.css";
+import HeroSection from "./component/HeroSection/HeroSection";
+import Slider from "./component/Reviews/Slider";
+import Surgery from "./component/Surgery/Surgery";
 
 function App() {
   return (
-    <>
-      <Surgery/>
-    </>
+    <div className="App">
+      <HeroSection />
+      <Surgery />
+      <Slider />
+    </div>
   );
 }
 
