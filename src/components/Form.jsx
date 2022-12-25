@@ -3,79 +3,55 @@ import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 
 import MenuItem from "@mui/material/MenuItem";
-import Button from '@mui/material/Button';
+import Button from "@mui/material/Button";
 
 export default function Form() {
   const [value, setValue] = React.useState("");
+  const [currency, setCurrency] = React.useState("Bangalore");
 
-  const [currency, setCurrency] = React.useState("EUR");
-
-  const currencies = [
+  const cities = [
     {
-      value: "USD",
-      label: "$",
+      value: "Coimbatore",
+      label: "Coimbatore",
     },
     {
-      value: "EUR",
-      label: "€",
+      value: "Bangalore",
+      label: "Bangalore",
     },
     {
-      value: "BTC",
-      label: "฿",
+      value: "Kanpur",
+      label: "Kanpur",
     },
     {
-      value: "JPY",
-      label: "¥",
+      value: "Mysore",
+      label: "Mysore",
     },
     {
-      value: "USD",
-      label: "$",
+      value: "Bhubaneshwar",
+      label: "Bhubaneshwar",
     },
     {
-      value: "EUR",
-      label: "€",
+      value: "Vijayawada",
+      label: "Vijayawada",
     },
     {
-      value: "BTC",
-      label: "฿",
+      value: "Vishakhapatnam",
+      label: "Vishakhapatnam",
     },
     {
-      value: "JPY",
-      label: "¥",
+      value: "Bhopal",
+      label: "Bhopal",
     },
     {
-      value: "USD",
-      label: "$",
+      value: "Nagpur",
+      label: "Nagpur",
     },
     {
-      value: "EUR",
-      label: "€",
-    },
-    {
-      value: "BTC",
-      label: "฿",
-    },
-    {
-      value: "JPY",
-      label: "¥",
-    },
-    {
-      value: "USD",
-      label: "$",
-    },
-    {
-      value: "EUR",
-      label: "€",
-    },
-    {
-      value: "BTC",
-      label: "฿",
-    },
-    {
-      value: "JPY",
-      label: "¥",
+      value: "Chennai",
+      label: "Chennai",
     },
   ];
+  
   const handleChange1 = (event) => {
     setCurrency(event.target.value);
   };
@@ -87,18 +63,21 @@ export default function Form() {
   return (
     <Box
       component="form"
-      className="m"
+      className=""
       sx={{
         "& .MuiTextField-root": { m: 2, width: "36ch" },
         mt: 2,
-        mr:'8px',
-        borderRadius:"10px",
-       
-        boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'
+        mr: "20px",
+        borderRadius: "10px",
+        fontWeight: "bold",
+        padding: "4px",
+        boxShadow:
+          "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
       }}
       noValidate
       autoComplete="off"
     >
+        <div className="text-[20px] flex justify-center mt-[8px] text-bold font-bold">Book your Consulation today</div>
       <div>
         <TextField
           id="outlined-multiline-flexible"
@@ -113,9 +92,10 @@ export default function Form() {
       <div>
         <TextField
           id="outlined-number"
-          label="Number"
+          label="Age"
           type="number"
           maxRows={2}
+          required
           InputLabelProps={{
             shrink: true,
           }}
@@ -127,45 +107,60 @@ export default function Form() {
           label="Number"
           type="number"
           maxRows={2}
+          helperText="Please provide your phone number"
           InputLabelProps={{
             shrink: true,
           }}
         />
       </div>
-      <div>
+      {/* <div>
         <TextField
           id="outlined-select-currency"
           select
           label="Select"
           value={currency}
+          required
           onChange={handleChange1}
-          helperText="Please select your currency"
+          helperText="Please select your City"
         >
-          {currencies.map((option) => (
+          {ailments.map((option) => (
+            <div className="flex items-center">
+                <img
+                  src="https://www.practostatic.com/practo-care/brand_page/images/ic_destination.png"
+                  height="16px"
+                  width="20px"
+                  className="mr-[10px] ml-[10px] mb-[10px]"
+                />
             <MenuItem key={option.value} value={option.value}>
+              
+              
               {option.label}
             </MenuItem>
+            </div>
           ))}
         </TextField>
-      </div>
+      </div> */}
       <div>
         <TextField
           id="outlined-select-currency"
           select
           label="Select"
           value={currency}
+          required
           onChange={handleChange1}
-          helperText="Please select your currency"
+          helperText="Please select your City"
         >
-          {currencies.map((option) => (
-            <MenuItem key={option.value} value={option.value}>
+          {cities.map((option) => (
+            <MenuItem key={option.label} value={option.value}>
               {option.label}
             </MenuItem>
           ))}
         </TextField>
       </div>
       <div className="flex justify-center mb-[16px] ">
-      <Button variant="contained" sx={{width:'300px', height:'9vh'}}>Book Appointment</Button>
+        <Button variant="contained" sx={{ width: "300px", height: "9vh" }}>
+          Book Appointment
+        </Button>
       </div>
     </Box>
   );
