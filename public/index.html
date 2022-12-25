@@ -37,6 +37,48 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
+      
     -->
+    <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script><script>
+      const setup = () => {
+          return {
+              isNavOpen: false,
+
+              billPlan: 'monthly',
+
+              plans: [
+                  {
+                      name: 'Easy',
+                      discretion: 'All the basics of healthcare for those who are just getting started.',
+                      price: {
+                          monthly: 29,
+                          annually: 29 * 12 - 199,
+                      },
+                      features: ['One family member', 'Your dashboard'],
+                  },
+                  {
+                      name: 'Basic',
+                      discretion: 'Better for a family and cost saver also.',
+                      price: {
+                          monthly: 59,
+                          annually: 59 * 12 - 100,
+                      },
+                      features: ['Four members', 'Your dashboard', 'Monthly Check-up included', 'Advanced charts'],
+                  },
+                  {
+                      name: 'Custom',
+                      discretion: 'Full package for a joint family',
+                      price: {
+                          monthly: 139,
+                          annually: 139 * 12 - 100,
+                      },
+                      features: ['Unlimited family members', 'Your dashboard', '300+ diagnostic tests', 'Chat support'],
+                  },
+              ],
+          }
+      }
+  </script>
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" defer></script>
   </body>
 </html>
