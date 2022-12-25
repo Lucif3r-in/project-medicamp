@@ -1,14 +1,14 @@
 import React from "react";
-
+/* eslint-disable */
 function Navbar() {
   return (
     <nav class="bg-gray-900 border-gray-200 px-2 sm:px-4 py-2.5  h-28">
       <div class="container flex flex-wrap items-center justify-between mx-auto">
         <a href="https://flowbite.com/" class="flex items-center">
           <img
-            src="https://res.cloudinary.com/dkqxnquga/image/upload/v1671957971/Logo_of_HealthifyMe_jhdr8v.png"
+            src={"https://res.cloudinary.com/dkqxnquga/image/upload/v1671957971/Logo_of_HealthifyMe_jhdr8v.png"}
             class="h-6 mr-3 sm:h-12"
-            alt=" Logo"
+            alt={" Logo"}
           />
         </a>
 
@@ -78,7 +78,7 @@ function Navbar() {
                       <h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white">
                         Sign in to HealthifyMe
                       </h3>
-                      <form class="space-y-6" action="#">
+                      <form class="space-y-6" action="/">
                         <div>
                           <label
                             for="email"
@@ -130,7 +130,7 @@ function Navbar() {
                             </label>
                           </div>
                           <a
-                            href="#"
+                            href="/"
                             class="text-sm text-blue-700 hover:underline dark:text-blue-500"
                           >
                             Forgot Password?
@@ -138,14 +138,14 @@ function Navbar() {
                         </div>
                         <button
                           type="submit"
-                          class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                          class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center "
                         >
                           Login to your account
                         </button>
                         <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
                           Not registered?{" "}
                           <a
-                            href="#"
+                            href="/"
                             class="text-blue-700 hover:underline dark:text-blue-500"
                           >
                             Create account
@@ -168,14 +168,14 @@ function Navbar() {
               </div>
               <div class="divide-y divide-gray-100 dark:divide-gray-700">
                 <a
-                  href="#"
+                  href="/"
                   class="flex py-3 px-4 hover:bg-gray-100 dark:hover:bg-gray-700"
                 >
                   <div class="flex-shrink-0">
                     <img
                       class="w-11 h-11 rounded-full"
-                      src="/docs/images/people/profile-picture-1.jpg"
-                      alt="Jese image"
+                      src={"https://res.cloudinary.com/dkqxnquga/image/upload/v1671958702/images_n49uxa.jpg"}
+                      alt={"Jese image"}
                     />
                     <div class="flex absolute justify-center items-center ml-6 -mt-5 w-5 h-5 bg-blue-600 rounded-full border border-white dark:border-gray-800">
                       <svg
@@ -204,14 +204,14 @@ function Navbar() {
                   </div>
                 </a>
                 <a
-                  href="#"
+                  href="/"
                   class="flex py-3 px-4 hover:bg-gray-100 dark:hover:bg-gray-700"
                 >
                   <div class="flex-shrink-0">
                     <img
                       class="w-11 h-11 rounded-full"
-                      src="/docs/images/people/profile-picture-2.jpg"
-                      alt="Joseph image"
+                      src={"https://res.cloudinary.com/dkqxnquga/image/upload/v1671958702/images_n49uxa.jpg"}
+                      alt={"Joseph image"}
                     />
                     <div class="flex absolute justify-center items-center ml-6 -mt-5 w-5 h-5 bg-gray-900 rounded-full border border-white dark:border-gray-800">
                       <svg
@@ -242,14 +242,14 @@ function Navbar() {
                   </div>
                 </a>
                 <a
-                  href="#"
+                  href="/"
                   class="flex py-3 px-4 hover:bg-gray-100 dark:hover:bg-gray-700"
                 >
                   <div class="flex-shrink-0">
                     <img
                       class="w-11 h-11 rounded-full"
-                      src="/docs/images/people/profile-picture-3.jpg"
-                      alt="Bonnie image"
+                      src={"https://res.cloudinary.com/dkqxnquga/image/upload/v1671958702/images_n49uxa.jpg"}
+                      alt={"Bonnie image"}
                     />
                     <div class="flex absolute justify-center items-center ml-6 -mt-5 w-5 h-5 bg-red-600 rounded-full border border-white dark:border-gray-800">
                       <svg
@@ -284,14 +284,14 @@ function Navbar() {
                   </div>
                 </a>
                 <a
-                  href="#"
+                  href="/"
                   class="flex py-3 px-4 hover:bg-gray-100 dark:hover:bg-gray-700"
                 >
                   <div class="flex-shrink-0">
                     <img
                       class="w-11 h-11 rounded-full"
-                      src="/docs/images/people/profile-picture-4.jpg"
-                      alt="Leslie image"
+                      src={"https://res.cloudinary.com/dkqxnquga/image/upload/v1671958702/images_n49uxa.jpg"}
+                      alt={"Leslie image"}
                     />
                     <div class="flex absolute justify-center items-center ml-6 -mt-5 w-5 h-5 bg-green-400 rounded-full border border-white dark:border-gray-800">
                       <svg
@@ -315,7 +315,7 @@ function Navbar() {
                         Leslie Livingston
                       </span>
                       mentioned you in a comment:{" "}
-                      <span class="font-medium text-blue-500" href="#">
+                      <span class="font-medium text-blue-500" href="/">
                         @bonnie.green
                       </span>
                       what do you say?
@@ -326,14 +326,14 @@ function Navbar() {
                   </div>
                 </a>
                 <a
-                  href="#"
+                  href="/"
                   class="flex py-3 px-4 hover:bg-gray-100 dark:hover:bg-gray-700"
                 >
                   <div class="flex-shrink-0">
                     <img
                       class="w-11 h-11 rounded-full"
-                      src="/docs/images/people/profile-picture-5.jpg"
-                      alt="Robert image"
+                      src="https://res.cloudinary.com/dkqxnquga/image/upload/v1671958702/images_n49uxa.jpg"
+                      alt={"Robert image"}
                     />
                     <div class="flex absolute justify-center items-center ml-6 -mt-5 w-5 h-5 bg-purple-500 rounded-full border border-white dark:border-gray-800">
                       <svg
@@ -362,7 +362,7 @@ function Navbar() {
                 </a>
               </div>
               <a
-                href="#"
+                href="/"
                 class="block py-2 text-sm font-medium text-center text-gray-900 bg-gray-50 hover:bg-gray-100 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-white"
               >
                 <div class="inline-flex items-center ">
@@ -398,7 +398,7 @@ function Navbar() {
             <img
               class="w-18 h-14 rounded-full"
               src="https://res.cloudinary.com/dkqxnquga/image/upload/v1671958702/images_n49uxa.jpg"
-              alt="user photo"
+              alt={"user photo"}
             />
           </button>
           {/* {<!-- Dropdown menu -->} */}
@@ -417,7 +417,7 @@ function Navbar() {
             <ul class="py-1" aria-labelledby="user-menu-button">
               <li>
                 <a
-                  href="#"
+                  href="/"
                   class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
                 >
                   Dashboard
@@ -425,7 +425,7 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/"
                   class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
                 >
                   Settings
@@ -433,7 +433,7 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/"
                   class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
                 >
                   Earnings
@@ -441,7 +441,7 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/"
                   class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
                 >
                   Sign out
@@ -482,7 +482,7 @@ function Navbar() {
           <ul class="flex flex-col p-4 mt-4   bg-gray-900 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-semibold md:border-0  ">
             <li>
               <a
-                href="#"
+                href="/"
                 class="block py-2 pl-3 pr-4 text-white   hover:scale-110 md:p-0"
                 aria-current="page"
               >
@@ -491,7 +491,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/"
                 class="block py-2 pl-3 pr-4 text-white   hover:scale-110 md:p-0"
               >
                 About
@@ -499,7 +499,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/"
                 class="block py-2 pl-3 pr-4 text-white   hover:scale-110 md:p-0 "
               >
                 Services
@@ -507,7 +507,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="./pricing.html"
+                href="/"
                 class="block py-2 pl-3 pr-4 text-white   hover:scale-110 md:p-0 "
               >
                 Pricing
@@ -515,7 +515,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/"
                 class="block py-2 pl-3 pr-4 text-white   hover:scale-110 md:p-0"
               >
                 Contact
