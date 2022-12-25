@@ -108,10 +108,10 @@ function Surgery() {
 
   return (
 
-    <section className="flex flex-col max-w-3xl ml-28 mt-2">
+    <section className="flex flex-col max-w-3xl ml-20 mt-2">
 
       <div>
-        <h2 className="text-black font-bold text-xl">
+        <h2 className="text-black font-bold text-2xl">
           We are experts in Surgical solutions for 50+ ailments.
         </h2>
       </div>
@@ -139,7 +139,7 @@ function Surgery() {
           {showModal ? (
             <>
               <div className="flex justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none bg-gray-700 bg-opacity-70">
-                <div className="relative w-auto my-2 mx-auto max-w-sm">
+                <div className="relative w-auto my-2 mx-auto max-w-sm ">
                   <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                     <div className="flex items-start justify-between p-3">
                       <h3 className="text-xl font-semibold">
@@ -171,7 +171,7 @@ function Surgery() {
                           className=" mt-8 shadow appearance-none border rounded-lg h-14 w-full py-2 px-1 text-black"
                           placeholder="Age*"
                         />
-                        <Cities />
+                        <Cities/>
                       </form>
                     </div>
                     <div className="flex items-center justify-center ">
