@@ -1,19 +1,19 @@
-import Form from "./components/Form";
-
-import Surgery from "./components/Surgery";
+import "./App.css";
+import HeroSection from "./component/HeroSection/HeroSection";
+import Slider from "./component/Reviews/Slider";
+import Surgery from "./component/Surgery/Surgery";
+import Form from "./component/form/Form";
 
 function App() {
   return (
-    <>
-      <div className="flex justify-between">        
-        <Surgery />
-        <div className="flex  items-center">
-          <Form />
-        </div>
+    <div className="App">
+      <HeroSection />
+      <div className="flex items-center justify-around">
+      <Surgery />
+        <Form/>
       </div>
-      {/* <Surgery/> */}
-      
-    </>
+      <Slider />
+    </div>
   );
 }
 
