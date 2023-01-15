@@ -160,10 +160,10 @@ function Navbar() {
             {/* {<!-- Dropdown menu -->} */}
             <div
               id="dropdownNotification"
-              class="hidden z-20 w-full max-w-sm bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-800 dark:divide-gray-700"
+              class="hidden z-20 w-full max-w-sm  rounded divide-y  shadow dark:bg-gray-800 dark:divide-gray-700"
               aria-labelledby="dropdownNotificationButton"
             >
-              <div class="block py-2 px-4 font-medium text-center text-gray-700 bg-gray-50 dark:bg-gray-800 dark:text-white">
+              <div class="block py-2 px-4 font-medium text-center  bg-gray-800 text-white">
                 Notifications
               </div>
               <div class="divide-y divide-gray-100 dark:divide-gray-700">
@@ -403,14 +403,14 @@ function Navbar() {
           </button>
           {/* {<!-- Dropdown menu -->} */}
           <div
-            class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700 dark:divide-gray-600"
+            class="z-50 hidden my-4 text-base list-none  divide-y rounded shadow bg-gray-700 divide-gray-600"
             id="user-dropdown"
           >
             <div class="px-4 py-3">
-              <span class="block text-sm text-gray-900 dark:text-white">
+              <span class="block text-sm text-white">
                 Bonnie Green
               </span>
-              <span class="block text-sm font-medium text-gray-500 truncate dark:text-gray-400">
+              <span class="block text-sm font-medium  truncate text-gray-400">
                 name@flowbite.com
               </span>
             </div>
@@ -418,7 +418,7 @@ function Navbar() {
               <li>
                 <a
                   href="/"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                  class="block px-4 py-2 text-sm  hover:bg-gray-600 text-gray-200 hover:text-white"
                 >
                   Dashboard
                 </a>
@@ -426,7 +426,7 @@ function Navbar() {
               <li>
                 <a
                   href="/"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                  class="block px-4 py-2 text-sm  hover:bg-gray-600 text-gray-200 hover:text-white"
                 >
                   Settings
                 </a>
@@ -434,7 +434,7 @@ function Navbar() {
               <li>
                 <a
                   href="/"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                  class="block px-4 py-2 text-sm hover:bg-gray-600 text-gray-200 hover:text-white"
                 >
                   Earnings
                 </a>
@@ -442,7 +442,7 @@ function Navbar() {
               <li>
                 <a
                   href="/"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                  class="block px-4 py-2 text-sm  hover:bg-gray-600 text-gray-200 hover:text-white"
                 >
                   Sign out
                 </a>

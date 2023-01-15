@@ -18,7 +18,7 @@ function App() {
         <Form/>
       </div>
       <Slider />
-      <div className="mt-10 ml-5">
+      <div className="mt-10 ml-[32em]">
       <BasicTimeline/>
       </div>
       <Footer />
